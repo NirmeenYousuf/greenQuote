@@ -58,4 +58,5 @@ If I could have been able to spend more time on it, I would have considered addi
 4. Better Test coverage on API
 5. Test coverage on FE
 6. Since we are using Session based cookies for authentication, implemeting CSRF token protection also for more security. 
+7. Right now, passwords are simple stored as plain text in DB as it was just an assignment. But for actual applications, they should always be encrypted and stored. 
 
