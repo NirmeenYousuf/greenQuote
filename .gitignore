@@ -1,0 +1,6 @@
+.vscode
+api/node_modules
+api/dist
+web/node_modules
+.DS_store
+api/.env
