@@ -48,6 +48,8 @@ Then a separate folder for pages and a sub folder to arrange it entity/module wi
 
 For validation, both at BE and FE, I have used Joi. 
 
+For now, I have kept the Register, Login, Logout in Users folder, but when user entity has more controllers like create, update, etc and Login, logout, Register are moere Aiuthetication related functions and they might have additional things like password encryption logic, CSRF Token, maybe some other authentication related files like JWT implementation or OAuth, etc, so for clear structure we can move those to separate Auth folder too.
+
 ## More things which can be added
 
 If I could have been able to spend more time on it, I would have considered adding the following things:
